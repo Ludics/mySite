@@ -5,7 +5,7 @@
   
 
 
-<html class="theme-next muse use-motion">
+<html class="theme-next mist use-motion">
 <head>
   <meta charset="UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
@@ -95,7 +95,7 @@
 <script type="text/javascript" id="hexo.configuration">
   var NexT = window.NexT || {};
   var CONFIG = {
-    scheme: 'Muse',
+    scheme: 'Mist',
     sidebar: {"position":"left","display":"post"},
     fancybox: true,
     motion: true,
@@ -143,7 +143,7 @@
       <span class="logo-line-after"><i></i></span>
     </a>
   </div>
-  <p class="site-subtitle">This life is short. Seize the day.</p>
+  <p class="site-subtitle">Life is but a span. Seize the day.</p>
 </div>
 
 <div class="site-nav-toggle">
@@ -171,6 +171,16 @@
         </li>
       
         
+        <li class="menu-item menu-item-about">
+          <a href="/about" rel="section">
+            
+              <i class="menu-item-icon fa fa-user fa-fw"></i> <br />
+            
+            关于
+          </a>
+        </li>
+      
+        
         <li class="menu-item menu-item-archives">
           <a href="/archives" rel="section">
             
@@ -187,6 +197,16 @@
               <i class="menu-item-icon fa fa-tags fa-fw"></i> <br />
             
             标签
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-guestbook">
+          <a href="/guestbook" rel="section">
+            
+              <i class="menu-item-icon fa fa-question-circle fa-fw"></i> <br />
+            
+            留言
           </a>
         </li>
       
@@ -229,8 +249,8 @@
             
               
                 
-                <a class="post-title-link" href="/2016/04/20/hello-world/" itemprop="url">
-                  Hello World
+                <a class="post-title-link" href="/2016/04/22/更换域名小记/" itemprop="url">
+                  更换域名小记
                 </a>
               
             
@@ -243,14 +263,21 @@
               <i class="fa fa-calendar-o"></i>
             </span>
             <span class="post-meta-item-text">发表于</span>
-            <time itemprop="dateCreated" datetime="2016-04-20T17:36:45+08:00" content="2016-04-20">
-              2016-04-20
+            <time itemprop="dateCreated" datetime="2016-04-22T13:20:31+08:00" content="2016-04-22">
+              2016-04-22
             </time>
           </span>
 
           
 
           
+            
+              <span class="post-comments-count">
+                &nbsp; | &nbsp;
+                <a href="/2016/04/22/更换域名小记/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count ds-thread-count" data-thread-key="2016/04/22/更换域名小记/" itemprop="commentsCount"></span>
+                </a>
+              </span>
             
           
 
@@ -273,15 +300,16 @@
       
         
           
-            <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
+            <p><code>Github Pages</code>提供的默认域名是<code>ludics.github.io</code>，但是个人网站嘛，怎么能没有自己的域名呢？因此决定去买个域名换上。</p>
+<p>好多人推荐的是<a href="sg.godaddy.com/zh">GoDaddy</a>，本来也想去那儿买的，不过又偶然发现在<a href="www.qcloud.com">腾讯云</a>上认证为大学生后送免费的域名和云服务器，此等好事怎么能不干？我立刻去申请，果然成功免费得到了<code>ludics.cn</code>这个域名。这里要夸一夸小马哥和腾讯，确实是良心人良心企业啊。</p>
+<p>有了域名当然就是去解析了，不过我们是在天朝上国，办网站也是要按基本法的，解析前必须实名认证，否则是解析不上的。由于之前没有认识到这一点，腾讯云也不提醒我，浪费了好多时间。腾讯云网站上的云解析似乎不太靠谱，上面写着“免费公测中”，我又去了<a href="www.dnspod.cn">DNSPod</a>这个看起来更专业的网站。</p>
+<p>解析的过程还是挺简单，我参考了一些教程，添加了两个主机记录<code>@</code>和<code>www</code>，<code>@</code>就是直接解析主机名<code>ludics.cn</code>，<code>www</code>解析的域名是<code>www.ludics.cn</code>，以此类推。记录类型选择的是<code>CNAME</code>，就是把要解析的域名指向另一个域名。如果知道网站的IP地址的话可以记录为<code>A</code>类型，但并不知道<code>Github Pages</code>提供的IP，因此作罢，反正都能解析。</p>
+<p>最后一步还要在<code>Github</code>的<code>repo</code>里添加<code>CNAME</code>文件，文件里写上域名地址，即<code>ludics.cn</code>。但是每次<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">leon@ASUS:~/repertory/mypages/Ludics.github.io$ hexo d</span><br></pre></td></tr></table></figure></p>
+<p>发布新页面到<code>Github</code>上时，都会把<code>CNAME</code>文件删除，这个问题目前还没有很好地解决。</p>
+<p>之后又在QQ邮箱设置了域名邮箱，在QQ邮箱的<code>设置-体验室</code>可以找到链接。给自己添加了新的邮箱地址<a href="&#109;&#97;&#x69;&#x6c;&#116;&#x6f;&#x3a;&#109;&#101;&#64;&#108;&#x75;&#100;&#x69;&#99;&#115;&#46;&#x63;&#110;">&#109;&#101;&#64;&#108;&#x75;&#100;&#x69;&#99;&#115;&#46;&#x63;&#110;</a>。腾讯的域名邮箱是和QQ邮箱绑定的，收发邮件都在QQ邮箱界面完成。</p>
+<p>好吧，这两天为了这个博客浪费太多时间了=_=</p>
+<p>Anyway，生命在于折腾……(真是没底气，挂科了你就不折腾了)</p>
+<p>以上。</p>
 
           
         
@@ -354,6 +382,13 @@
 
           
             
+              <span class="post-comments-count">
+                &nbsp; | &nbsp;
+                <a href="/2016/04/20/My-New-Post/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count ds-thread-count" data-thread-key="2016/04/20/My-New-Post/" itemprop="commentsCount"></span>
+                </a>
+              </span>
+            
           
 
           
@@ -376,7 +411,7 @@
         
           
             <p>搞了一个下午终于搭建好了这个简单的博客，还是很开心的。</p>
-<p>早就想做个自己的网站，可是一致都没弄，刚好前两天在简书上看到<a href="http://wingjay.com" target="_blank" rel="external">wingjay</a>的一个教程，用<code>Hexo</code>和<code>Github</code>配合就能弄好了，<a href="http://www.jianshu.com/p/99665608d295" target="_blank" rel="external">原文在这</a>。</p>
+<p>早就想做个自己的网站，可是一直都没弄，刚好前两天在简书上看到<a href="http://wingjay.com" target="_blank" rel="external">wingjay</a>的一个教程，用<code>Hexo</code>和<code>Github</code>配合就能弄好了，<a href="http://www.jianshu.com/p/99665608d295" target="_blank" rel="external">原文在这</a>。</p>
 <p><a href="http://wingjay.com" target="_blank" rel="external">wingjay</a>的教程后半部分讲的有些简略，我又参考了其他一些博客才弄好。</p>
 <p>大家搭好博客后都喜欢写一下搭的过程，但是我太懒了，而且反正这种教程多的是，所以就不写了。</p>
 <p>不过还是要提一下，好多教程是针对<code>Hexo 2.×</code>的，但是现在已经更新到<code>Hexo 3</code>了，<code>_config.yml</code>的配置会有一些不同。</p>
@@ -513,11 +548,27 @@
 <div class="theme-info">
   主题 -
   <a class="theme-link" href="https://github.com/iissnan/hexo-theme-next">
-    NexT.Muse
+    NexT.Mist
   </a>
 </div>
 
         
+
+<div class="busuanzi-count">
+
+  <script async src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+  
+    <span class="site-uv"><i class="fa fa-user"></i><span class="busuanzi-value" id="busuanzi_value_site_uv"></span></span>
+  
+
+  
+    <span class="site-pv"><i class="fa fa-eye"></i><span class="busuanzi-value" id="busuanzi_value_site_pv"></span></span>
+  
+  
+</div>
+
+
 
         
       </div>
@@ -590,9 +641,28 @@
 
   
 
+  
+    
+  
 
+  <script type="text/javascript">
+    var duoshuoQuery = {short_name:"ludics"};
+    (function() {
+      var ds = document.createElement('script');
+      ds.type = 'text/javascript';ds.async = true;
+      ds.id = 'duoshuo-script';
+      ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+      ds.charset = 'UTF-8';
+      (document.getElementsByTagName('head')[0]
+      || document.getElementsByTagName('body')[0]).appendChild(ds);
+    })();
+  </script>
 
   
+    
+  
+
+
 
 
 

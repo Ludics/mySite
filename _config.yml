@@ -4,7 +4,7 @@
 
 # Site
 title: Carpe Diem
-subtitle: This life is short. Seize the day.
+subtitle: Life is but a span. Seize the day.
 description: Blog
 author: Ludics
 language: zh-Hans
@@ -67,6 +67,10 @@ theme: next
 
 #avatar
 avatar: /images/liuyifei.jpg
+
+#comments
+#disqus_shortname: ludics
+duoshuo_shortname: ludics
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html

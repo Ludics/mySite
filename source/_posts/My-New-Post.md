@@ -6,7 +6,7 @@ tags: 随感
 
 搞了一个下午终于搭建好了这个简单的博客，还是很开心的。
 
-早就想做个自己的网站，可是一致都没弄，刚好前两天在简书上看到[wingjay](http://wingjay.com)的一个教程，用`Hexo`和`Github`配合就能弄好了，[原文在这](http://www.jianshu.com/p/99665608d295)。
+早就想做个自己的网站，可是一直都没弄，刚好前两天在简书上看到[wingjay](http://wingjay.com)的一个教程，用`Hexo`和`Github`配合就能弄好了，[原文在这](http://www.jianshu.com/p/99665608d295)。
 
 [wingjay](http://wingjay.com)的教程后半部分讲的有些简略，我又参考了其他一些博客才弄好。
 
