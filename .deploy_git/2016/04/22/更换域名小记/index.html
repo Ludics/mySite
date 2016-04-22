@@ -5,7 +5,7 @@
   
 
 
-<html class="theme-next mist use-motion">
+<html class="theme-next pisces use-motion">
 <head>
   <meta charset="UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
@@ -102,13 +102,13 @@
 <script type="text/javascript" id="hexo.configuration">
   var NexT = window.NexT || {};
   var CONFIG = {
-    scheme: 'Mist',
+    scheme: 'Pisces',
     sidebar: {"position":"left","display":"post"},
     fancybox: true,
     motion: true,
     duoshuo: {
       userId: 0,
-      author: '博主'
+      author: 'Author'
     }
   };
 </script>
@@ -116,7 +116,7 @@
   <title> 更换域名小记 | Carpe Diem </title>
 </head>
 
-<body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
+<body itemscope itemtype="http://schema.org/WebPage" lang="en">
 
   
 
@@ -171,7 +171,7 @@
             
               <i class="menu-item-icon fa fa-home fa-fw"></i> <br />
             
-            首页
+            Home
           </a>
         </li>
       
@@ -181,7 +181,7 @@
             
               <i class="menu-item-icon fa fa-user fa-fw"></i> <br />
             
-            关于
+            About
           </a>
         </li>
       
@@ -191,7 +191,7 @@
             
               <i class="menu-item-icon fa fa-archive fa-fw"></i> <br />
             
-            归档
+            Archives
           </a>
         </li>
       
@@ -201,7 +201,7 @@
             
               <i class="menu-item-icon fa fa-tags fa-fw"></i> <br />
             
-            标签
+            Tags
           </a>
         </li>
       
@@ -211,7 +211,7 @@
             
               <i class="menu-item-icon fa fa-question-circle fa-fw"></i> <br />
             
-            留言
+            Guestbook
           </a>
         </li>
       
@@ -264,7 +264,7 @@
             <span class="post-meta-item-icon">
               <i class="fa fa-calendar-o"></i>
             </span>
-            <span class="post-meta-item-text">发表于</span>
+            <span class="post-meta-item-text">Posted on</span>
             <time itemprop="dateCreated" datetime="2016-04-22T13:20:31+08:00" content="2016-04-22">
               2016-04-22
             </time>
@@ -311,7 +311,7 @@
 <p>解析的过程还是挺简单，我参考了一些教程，添加了两个主机记录<code>@</code>和<code>www</code>，<code>@</code>就是直接解析主机名<code>ludics.cn</code>，<code>www</code>解析的域名是<code>www.ludics.cn</code>，以此类推。记录类型选择的是<code>CNAME</code>，就是把要解析的域名指向另一个域名。如果知道网站的IP地址的话可以记录为<code>A</code>类型，但并不知道<code>Github Pages</code>提供的IP，因此作罢，反正都能解析。</p>
 <p>最后一步还要在<code>Github</code>的<code>repo</code>里添加<code>CNAME</code>文件，文件里写上域名地址，即<code>ludics.cn</code>。但是每次<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">leon@ASUS:~/repertory/mypages/Ludics.github.io$ hexo d</span><br></pre></td></tr></table></figure></p>
 <p>发布新页面到<code>Github</code>上时，都会把<code>CNAME</code>文件删除，这个问题目前还没有很好地解决。</p>
-<p>之后又在QQ邮箱设置了域名邮箱，在QQ邮箱的<code>设置-体验室</code>可以找到链接。给自己添加了新的邮箱地址<a href="&#109;&#97;&#x69;&#x6c;&#116;&#x6f;&#x3a;&#109;&#101;&#64;&#108;&#x75;&#100;&#x69;&#99;&#115;&#46;&#x63;&#110;">&#109;&#101;&#64;&#108;&#x75;&#100;&#x69;&#99;&#115;&#46;&#x63;&#110;</a>。腾讯的域名邮箱是和QQ邮箱绑定的，收发邮件都在QQ邮箱界面完成。</p>
+<p>之后又在QQ邮箱设置了域名邮箱，在QQ邮箱的<code>设置-体验室</code>可以找到链接。给自己添加了新的邮箱地址<a href="&#x6d;&#97;&#x69;&#108;&#x74;&#x6f;&#58;&#109;&#x65;&#64;&#108;&#x75;&#100;&#x69;&#99;&#115;&#46;&#x63;&#x6e;">&#109;&#x65;&#64;&#108;&#x75;&#100;&#x69;&#99;&#115;&#46;&#x63;&#x6e;</a>。腾讯的域名邮箱是和QQ邮箱绑定的，收发邮件都在QQ邮箱界面完成。</p>
 <p>好吧，这两天为了这个博客浪费太多时间了=_=</p>
 <p>Anyway，生命在于折腾……(真是没底气，挂科了你就不折腾了)</p>
 <p>以上。</p>
@@ -405,10 +405,10 @@
       
         <ul class="sidebar-nav motion-element">
           <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
-            文章目录
+            Table of Contents
           </li>
           <li class="sidebar-nav-overview" data-target="site-overview">
-            站点概览
+            Overview
           </li>
         </ul>
       
@@ -425,7 +425,7 @@
           <div class="site-state-item site-state-posts">
             <a href="/archives">
               <span class="site-state-item-count">2</span>
-              <span class="site-state-item-name">日志</span>
+              <span class="site-state-item-name">posts</span>
             </a>
           </div>
 
@@ -435,7 +435,7 @@
             <div class="site-state-item site-state-tags">
               <a href="/tags">
                 <span class="site-state-item-count">2</span>
-                <span class="site-state-item-name">标签</span>
+                <span class="site-state-item-name">tags</span>
               </a>
             </div>
           
@@ -463,7 +463,7 @@
               
             
             
-              <p class="post-toc-empty">此文章未包含目录</p>
+              <p class="post-toc-empty">This post does not have a Table of Contents</p>
             
           </div>
         </section>
@@ -490,13 +490,13 @@
 </div>
 
 <div class="powered-by">
-  由 <a class="theme-link" href="http://hexo.io">Hexo</a> 强力驱动
+  Powered by <a class="theme-link" href="http://hexo.io">Hexo</a>
 </div>
 
 <div class="theme-info">
-  主题 -
+  Theme -
   <a class="theme-link" href="https://github.com/iissnan/hexo-theme-next">
-    NexT.Mist
+    NexT.Pisces
   </a>
 </div>
 
@@ -577,6 +577,13 @@
 
   
   
+
+
+  <script type="text/javascript" src="/js/src/affix.js?v=5.0.1"></script>
+
+  <script type="text/javascript" src="/js/src/schemes/pisces.js?v=5.0.1"></script>
+
+
 
   
   <script type="text/javascript" src="/js/src/scrollspy.js?v=5.0.1"></script>
