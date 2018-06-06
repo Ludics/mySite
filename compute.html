@@ -1,0 +1,34 @@
+<html>
+<head>
+<meta charset="utf-8">
+<title>基坑渗水量计算</title>
+<style>
+    .a{
+        width: 300px;
+        height: 30px;
+         
+    }
+    #b{
+        width: 400px;
+        border: 1px solid red;
+        text-align: right;        /*右对齐*/
+    }
+</style>
+</head>
+<body>
+<div id = "b">
+<form action="waterinflow.php" method="post">
+基坑长度a(m): <input type="text" name="a"><br>
+基坑宽度b(m): <input type="text" name="b"><br>
+渗透系数K(m/d): <input type="text" name="K"><br>
+水位降深S(m): <input type="text" name="S"><br>
+滤管有效长度l(m): <input type="text" name="l"><br>
+基坑含水层厚度H0(m^3/d): <input type="text" name="H0"><br>
+基坑动水至含水层底面的深度h(m): <input type="text" name="h"><br>
+<input type="submit" value="提交">
+</form>
+ <!-- <?php echo $_POST["fname"]?> -->
+</div>
+
+</body>
+</html>
